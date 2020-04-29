@@ -42,4 +42,7 @@ if __name__ == "__main__":
     newticket.printTicket()
     newticket1 = t1.createTicket()
     newticket1.printTicket()
+    newticket2 = t1.createTicket()
+    newticket2.printTicket()
+    newticket1.printTicket()
     t1.startGame()

@@ -28,7 +28,7 @@ class Ticket:
                     self.ticket[index]=self.ticket[index]+bcup[column+1:]
                     numCount = numCount - 1
                     break
-        for index in range(len(self.ticket[row-1])):
+        for index in range(column):
             sortlist=[]
             for x in range(len(self.ticket)):
                 if self.ticket[x][index] > 0:

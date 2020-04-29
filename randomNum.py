@@ -5,7 +5,7 @@ class RandomNum:
     def __init__(self,start,end):
         self.numberList=list(range(start,end+1))
         self.shuffle()
-    
+
     def printList(self):
         print(self.numberList)
     
